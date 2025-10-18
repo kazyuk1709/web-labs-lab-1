@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const f=document.querySelector('[data-js="subscribe-form"]');if(f){f.addEventListener('submit',e=>{e.preventDefault();alert('Stub: subscription handler will be implemented later.')})}});

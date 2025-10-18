@@ -1,0 +1,36 @@
+.tag {
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  padding: 0.2rem 0.55rem;
+  margin-right: 0.3rem;
+  color: var(--muted);
+}
+.kbd {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono",
+    monospace;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  padding: 0.1rem 0.35rem;
+  border-radius: 6px;
+}
+
+.navlist a .arrow {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.06);
+  transition: transform 0.12s ease, background 0.12s ease;
+  user-select: none;
+}
+.navlist a:hover .arrow {
+  transform: translateX(2px);
+  background: rgba(255, 255, 255, 0.12);
+}
+.navlist a .arrow svg {
+  width: 14px;
+  height: 14px;
+}
